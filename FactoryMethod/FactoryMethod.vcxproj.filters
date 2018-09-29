@@ -15,24 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="ConcreteProduct.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Factory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="ConcreteFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="ConcreteProduct.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Factory.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Product.h">
+    <ClInclude Include="ConcreteFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

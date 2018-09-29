@@ -18,21 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ConcreteProduct.cpp" />
-    <ClCompile Include="Factory.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ConcreteProduct.h" />
-    <ClInclude Include="Factory.h" />
-    <ClInclude Include="Product.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{401B249A-9D77-4054-A14B-BFEE57BF1921}</ProjectGuid>
+    <ProjectGuid>{535E4409-53B0-4379-ACBC-AF1AF2891D9F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SimpleFactory</RootNamespace>
+    <RootNamespace>AbstractFactory</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -152,6 +142,17 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="AbstractProduct.h" />
+    <ClInclude Include="ConcreteFactory.h" />
+    <ClInclude Include="ConcreteProduct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConcreteFactory.cpp" />
+    <ClCompile Include="ConcreteProduct.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
