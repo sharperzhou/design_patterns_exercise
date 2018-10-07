@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{AF1F5CE3-0C93-4839-8646-9C6B7F8F67CB}</ProjectGuid>
+    <ProjectGuid>{A584BF74-15CD-4B70-9203-C0D4B96A3056}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Flyweight</RootNamespace>
+    <RootNamespace>Command</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -101,7 +100,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -116,7 +114,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -133,7 +130,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -143,14 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ConcreteFlyweight.h" />
-    <ClInclude Include="Flyweight.h" />
-    <ClInclude Include="FlyweightFactory.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="ConcreteCommand.h" />
+    <ClInclude Include="Invoker.h" />
+    <ClInclude Include="Receiver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConcreteFlyweight.cpp" />
-    <ClCompile Include="FlyweightFactory.cpp" />
+    <ClCompile Include="ConcreteCommand.cpp" />
+    <ClCompile Include="Invoker.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Receiver.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

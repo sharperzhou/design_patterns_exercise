@@ -8,7 +8,7 @@ shared_ptr<IFlyweight> FlyweightFactory::getFlyweight(const string & name)
     if (it != cache_.end()) {
         return it->second;
     } else {
-        auto item = make_shared<ConcreteFlyweight>();
+        auto item = make_shared<ConcreteFlyweight>(name);
         cache_.emplace(make_pair(name, item));
         return item;
     }

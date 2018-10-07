@@ -2,7 +2,12 @@
 #include <iostream>
 using namespace std;
 
+ConcreteFlyweight::ConcreteFlyweight(const string& id)
+    : id_(id)
+{
+}
+
 void ConcreteFlyweight::operation() const
 {
-    cout << "operation() in ConcreteFlyweight" << endl;
+    cout << R"(ConcreteFlyweight[")" << id_ << R"("] call operation())" << endl;
 }
