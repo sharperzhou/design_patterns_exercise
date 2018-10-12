@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prototype", "Prototype\Prototype.vcxproj", "{B84F4AC3-EDB3-4FC9-94DB-9C357A243CDB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateMethod", "TemplateMethod\TemplateMethod.vcxproj", "{7295E940-D041-4B89-9303-07AF26652990}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memento", "Memento\Memento.vcxproj", "{CF338492-EEC9-4B7D-85AF-60C36EB72654}"
 EndProject
 Global
@@ -193,6 +195,14 @@ Global
 		{B84F4AC3-EDB3-4FC9-94DB-9C357A243CDB}.Release|x64.Build.0 = Release|x64
 		{B84F4AC3-EDB3-4FC9-94DB-9C357A243CDB}.Release|x86.ActiveCfg = Release|Win32
 		{B84F4AC3-EDB3-4FC9-94DB-9C357A243CDB}.Release|x86.Build.0 = Release|Win32
+		{7295E940-D041-4B89-9303-07AF26652990}.Debug|x64.ActiveCfg = Debug|x64
+		{7295E940-D041-4B89-9303-07AF26652990}.Debug|x64.Build.0 = Debug|x64
+		{7295E940-D041-4B89-9303-07AF26652990}.Debug|x86.ActiveCfg = Debug|Win32
+		{7295E940-D041-4B89-9303-07AF26652990}.Debug|x86.Build.0 = Debug|Win32
+		{7295E940-D041-4B89-9303-07AF26652990}.Release|x64.ActiveCfg = Release|x64
+		{7295E940-D041-4B89-9303-07AF26652990}.Release|x64.Build.0 = Release|x64
+		{7295E940-D041-4B89-9303-07AF26652990}.Release|x86.ActiveCfg = Release|Win32
+		{7295E940-D041-4B89-9303-07AF26652990}.Release|x86.Build.0 = Release|Win32
 		{CF338492-EEC9-4B7D-85AF-60C36EB72654}.Debug|x64.ActiveCfg = Debug|x64
 		{CF338492-EEC9-4B7D-85AF-60C36EB72654}.Debug|x64.Build.0 = Debug|x64
 		{CF338492-EEC9-4B7D-85AF-60C36EB72654}.Debug|x86.ActiveCfg = Debug|Win32
